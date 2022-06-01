@@ -6,7 +6,7 @@ const todosWrapper = document.getElementById('todos-wrapper');
 let tasks;
 
 !localStorage.tasks ? tasks = [] : tasks = JSON.parse(localStorage.getItem('tasks'));
-// если LS не существует, то tasks - пустой массив, а если сущ. то берем из LS значения tasks
+
 
 let todoItemElems = [];
 
